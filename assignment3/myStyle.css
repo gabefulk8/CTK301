@@ -1,0 +1,82 @@
+h1 {
+  color: #ff0000;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  background-color: #000000;
+  color: #ff0000;
+}
+
+h4 {
+  text-align: center;
+  background-color: #ff0000;
+  color: #000000;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  text-align: left;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  padding-right: 20px
+}
+
+a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #00ff00;
+}
+
+a:hover {
+  color: #ffff00;
+  text-decoration: underline;
+}
+
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.redonblack {
+  color: #ff0000;
+  background-color: #000000;
+}
+
+.blackonred {
+  color: #000000;
+  background-color: #ff0000;
+}
+
+#centered {
+  text-align: center;
+}
+
+#redbold {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+#normalul {
+  text-align: left;
+}
