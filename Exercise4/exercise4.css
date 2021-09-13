@@ -1,0 +1,49 @@
+img {
+  width: 100%;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  background-color: yellow;
+}
+
+h4 {
+  color: yellow;
+  background-color: green;
+}
+
+h5 {
+  color: purple;
+}
+
+header {
+  background-color: #60A0E0;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.goldtext {
+  color: #E1A409;
+}
+#redp {
+  color: red;
+}
+
+#greenbackground {
+  background-color: #77F296;
+}
