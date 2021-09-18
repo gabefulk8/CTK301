@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  position: relative;
+  width: 640px;
+  background-image: url(Soul.png);
+  background-repeat: no-repeat;
+  color: #019CDA;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#toptext {
+  color: white;
+  text-align: right;
+  padding-left: 390px;
+  padding-right: 30px;
+  font-size: 16px;
+}
+
+#titletext {
+  color: #019CDA;
+  font-size: 138px;
+  position: relative;
+  padding-top: 30px;
+  text-align: center;
+  font-family: impact;
+}
+
+#orangeO {
+  color: #F8B034;
+}
+
+#justifiedp {
+  text-align: justify;
+  text-align-last: justify;
+  font-size: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0;
+  word-spacing: -2px;
+}
+
+#centered {
+  text-align: center;
+  padding-top: 410px;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.smalltext {
+  font-size: 12px;
+}
+
+img {
+  padding-top: 15px
+}
+
+a {
+  color: #019CDA;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #F8B034;
+  text-decoration: underline;
+}
