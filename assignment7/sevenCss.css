@@ -1,0 +1,139 @@
+#wrapper {
+  display: grid;
+  align-self: center;
+  margin: 3% 15% 3% 15%;
+  border: 4px solid rgba(1,37,144,1);
+  padding: none;
+  grid-template-columns: 1fr;
+}
+
+#boldp {
+  font-weight: bold;
+  text-align: justify;
+}
+
+#imgright {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+#imgleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+h1 a {
+  display: block;
+  font-style: italic;
+  color: #23B9FF;
+  padding: 15px 10px 15px 10px;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+  color: rgb(1,37,144);
+}
+
+h2 {
+  color: rgb(1,37,144);
+  border-bottom: 3px solid rgb(1,37,144);
+  padding-bottom: 5px;
+}
+
+body {
+  display: block;
+  background-color: #B5B5B5;
+  font-family: helvetica;
+  min-width: 960px;
+}
+
+header {
+  grid-column: span 1;
+  background: rgb(1,37,144);
+  background: linear-gradient(0deg, rgba(1,37,144,1) 19%, rgba(45,165,253,1) 100%);
+}
+
+main {
+  grid-column: span 1;
+  background-color: white;
+  padding: 20px;
+}
+
+main img {
+  border: 3px solid rgb(1,37,144);
+  padding: none;
+}
+
+main a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+main ul {
+  list-style-type: none;
+  display: flex;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+}
+
+main li {
+  padding-right: 25px;
+}
+
+footer {
+  clear: both;
+  background-color: red;
+  border-top: 4px solid rgb(1,37,144);
+  padding: 10px 0px 10px 20px;
+}
+
+nav{
+  grid-column: span 1;
+  margin: 0;
+  padding: 0;
+  background: rgb(1,37,144);
+  background: linear-gradient(0deg, rgba(1,37,144,1) 19%, rgba(45,165,253,1) 100%);
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 250px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background: rgb(1,37,144);
+  background: linear-gradient(0deg, rgba(1,37,144,1) 19%, rgba(45,165,253,1) 100%);
+  border-right: 4px solid rgba(1,37,144,1);
+}
+
+nav li a {
+  display: block;
+  color: #23B9FF;
+  text-decoration: none;
+  padding: 20px 10px 20px 20px;
+  margin: 0;
+}
+
+nav li a:hover {
+  background: rgb(1,37,144);
+  background: linear-gradient(180deg, rgba(1,37,144,1) 19%, rgba(45,165,253,1) 100%);
+  text-decoration: none;
+}
