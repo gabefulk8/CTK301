@@ -4,18 +4,44 @@
     <meta charset="utf-8">
     <title>About Me</title>
     <link rel="stylesheet" href="mypage.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
   </head>
 
-  <nav>
-    <ul>
-      <li><a href="main.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="gaming.html">Gaming</a></li>
-    </ul>
-  </nav>
-
   <body>
+    <div id="wrapper">
 
+    <header>
+      <h1>More About Me</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="gaming.html">Gaming</a></li>
+      </ul>
+    </nav>
+
+    <div id="myCarousel" class="carousel">
+      <div class="carousel__slide"><img  class="slide" src="images/madspic1.jpg"></div>
+      <div class="carousel__slide"><img class="slide" src="images/soccer.jpg"></div>
+      <div class="carousel__slide"><img class="slide" src="images/spittalwin.jpg"></div>
+    </div>
+
+    <main>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </main>
+
+    <script type="text/javascript">
+      const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+        slides:   [
+          {'friction' : 0.8}
+        ]
+      });
+    </script>
+
+    </div>
   </body>
 </html>
